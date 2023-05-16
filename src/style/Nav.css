@@ -1,0 +1,118 @@
+.container{
+  background-color: rgba(128, 128, 128, 0);
+
+}
+.logo{
+  width: 40%;
+  float: left;
+
+}
+.logoImg{
+
+  display:inline-block; 
+  width:25%;
+  
+  
+}
+.nav{
+  height: 100px;
+  float: left;
+  width: 60%;
+  text-align: right;
+
+}
+.nav > li {
+  display:inline-block;
+}
+.nav > li > a {
+  color: aliceblue;
+  display: block;
+  text-decoration: none;
+  padding: 30px 20px;
+  margin: 10px;
+}
+
+.nav > li > a:after , .nav li a.active:after {
+  content: "";
+  display: block;
+  width:0 ;
+  height: 3px;
+  background-color: gold;
+  transition:width 0.5s ;
+}
+
+.nav > li > a.active:after {
+  width: 100%;
+}
+
+.nav > li > a:hover:after {
+  width: 100%;
+
+}
+
+a{
+  text-decoration: none;
+
+}
+
+.control-dropdown{
+  position: relative;
+  
+  
+}
+.control-dropdown-menu {
+  position: absolute;
+  text-align: center;
+  left: 20%;
+  top: 70%;
+  background-color: gold;
+  list-style-type: none;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.7s;
+}
+
+.control-dropdown-menu a {
+  color: black;
+  display: block;
+  padding: 10px;
+  
+}
+
+.control-dropdown:hover .control-dropdown-menu{
+  opacity: 1;
+  visibility: visible;
+}
+
+.key-dropdown{
+  position: relative;
+  
+  
+}
+.key-dropdown-menu {
+  position: absolute;
+  text-align: center;
+  left: 20%;
+  top: 70%;
+  background-color: gold;
+  list-style-type: none;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.7s;
+}
+
+.key-dropdown-menu a {
+  color: black;
+  display: block;
+  padding: 10px;
+  
+}
+
+.key-dropdown:hover .key-dropdown-menu{
+  opacity: 1;
+  visibility: visible;
+}
+
+.clear{
+  clear: both;
+}
