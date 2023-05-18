@@ -1,0 +1,51 @@
+.choose-item{
+  float: left;
+  width: 50%;
+}
+.choose-item img{
+  width: 100%;
+  height: 100%;
+  
+}
+
+.choose-item-img{
+  height: 450px;
+}
+
+.item-desc{
+  padding: 20px;
+  color: #999;
+  line-height: 1.4;
+  font-size: 17px;
+  margin-bottom: 10px;
+}
+.choose-list{
+  list-style: none;
+}
+
+.choose-list li{
+  margin-bottom: 10px;
+  color: #999;
+  margin-left: 20px;
+}
+
+.choose-bollets{
+  list-style: none;
+  text-align: center;
+}
+
+.choose-bollets li{
+  width: 10px;
+  height: 10px;
+  display: inline-block;
+  background-color:#cbcbcb ;
+  margin: 10px 5px;
+  border-radius: 50%;
+}
+
+.choose-bollets li.active{
+  background-color:gold;
+}
+.choose-bollets li:hover{
+  background-color:gold;
+}
