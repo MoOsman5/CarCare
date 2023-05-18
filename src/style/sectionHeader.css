@@ -1,0 +1,27 @@
+.section-header{
+  text-align: center;
+}
+.section-header-left .section-title{
+  margin-left: 20px; ;
+}
+
+.line{
+  display: block;
+  height: 5px;
+  width: 60px;
+  margin: 0 auto 70px;
+  background-color: gold;
+}
+.section-header-left .line{
+  margin:20px;
+  margin-bottom: 70px;
+
+
+
+}
+
+.section-title{
+  font-size: 30px;
+  text-transform: capitalize;
+  margin-bottom:10px;
+}
