@@ -1,0 +1,17 @@
+.stat-item{
+  width: 25%;
+  float: left;
+  text-align: center;
+  line-height: 40px;
+
+}
+
+.stat-number{
+  font-weight: bold;
+  font-size: 30px;
+  color: aliceblue;
+  
+}
+.stat-text{
+  color: aliceblue;
+}
