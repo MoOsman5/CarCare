@@ -1,0 +1,45 @@
+.footer{
+  background-color: #1c1d21;
+  text-align: center;
+  padding: 40px 0;
+}
+.footer-links{
+  list-style: none;
+  margin: 20px 0;
+}
+
+.hover-opacity{
+  transition:opacity .5s;
+}
+
+.footer-links li {
+  display: inline-block;
+  margin: 0 5px;
+}
+.footer-links li a {
+  display: block;
+  width: 50px;
+  height: 50px;
+  background-color: gold;
+  color: aliceblue;
+  border-radius: 5px;
+
+}
+
+.footer-links li a i{
+  line-height: 50px;
+}
+
+.footer-logoImg{
+
+  display:inline-block; 
+  width:15%;
+  margin: 0;
+  
+  
+}
+.copyright{
+  color: #999;
+  font-size: 14px;
+  text-transform: uppercase;
+}
