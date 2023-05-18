@@ -2,6 +2,9 @@ import React from "react";
 import "../style/Header.css";
 import Nav from "./Nav";
 
+
+
+
 const Header = () => {
   return (
     <div className="home">
@@ -14,7 +17,6 @@ const Header = () => {
         </p>
         <button className="btn btn-start hover-opacity">Get Started !</button>
         <button className="btn btn-learn hover-opacity">Learn More !</button>
-
       </div>
     </div>
   );
