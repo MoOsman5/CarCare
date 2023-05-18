@@ -14,3 +14,10 @@ button{
   width: 80%;
   margin: auto;
 }
+.pd-y{
+  padding: 120px 0;
+}
+
+.clear{
+  clear: both;
+}
